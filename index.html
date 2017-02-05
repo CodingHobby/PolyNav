@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <title>PolyNav</title>
+</head>
+
+<body fullbleed>
+    <paper-toolbar>
+        <paper-icon-button icon="menu" on-tap="menuAction"></paper-icon-button>
+        <div class="title">Title</div>
+        <paper-icon-button icon="more-vert" on-tap="moreAction"></paper-icon-button>
+    </paper-toolbar>
+</body>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+</style>
+
+</html>
